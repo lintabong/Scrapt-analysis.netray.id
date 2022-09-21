@@ -1,6 +1,6 @@
-from URLcrawler import *
-from Connection import *
-from DateParser import *
+from functions.URLcrawler import *
+from functions.Connection import *
+from functions.DateParser import *
 from dotenv import load_dotenv
 import os
 
@@ -22,7 +22,7 @@ for i in range(len(urls)):
     print(i, urls[i])
 
 # mongodb repository (collection)
-collection = collection.xd
+collection = collection.xth
 
 # main function (scrapt every data on a single post)
 for i in range(len(urls)):
